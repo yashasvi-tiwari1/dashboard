@@ -13,8 +13,11 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": "./",
     "paths": {
-      "sewa/*": ["./src/*"]
+      "sewa/*": ["./src/*"],
+      "react-html-table-to-excel": ["src/react-html-table-to-excel.d.ts"]
+
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
